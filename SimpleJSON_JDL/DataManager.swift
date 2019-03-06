@@ -10,7 +10,7 @@ import UIKit
 
 class DataManager: NSObject {
     
-    let MYJSONURL = "https://api.myjson.com/bins/136w0u"
+    let MYJSONURL = "https://api.myjson.com/bins/ewokm"
     
     var dataArray = ["No data yet, pally"]
 

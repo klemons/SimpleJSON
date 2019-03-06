@@ -24,7 +24,7 @@ class MasterViewController: UITableViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
-        self.title = "Veggies That Talk"
+        self.title = "Avengers"
         
         dataGrabber.getData(completion: {
                 success in self.objects = self.dataGrabber.dataArray
