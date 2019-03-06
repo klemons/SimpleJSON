@@ -10,9 +10,9 @@ import UIKit
 
 class DataManager: NSObject {
     
-    let MYJSONURL = "https://api.myjson.com/bins/ewokm"
+    let MYJSONURL = "https://api.myjson.com/bins/mllpi"
     
-    var dataArray = ["No data yet, pally"]
+    var dataArray = ["I'm empty right now"]
 
         func getData(completion: @escaping (_ success: Bool) ->())
         {
@@ -27,13 +27,13 @@ class DataManager: NSObject {
                     if let jsonObj = try?
                         JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? NSDictionary
                     {
-                        print(jsonObj!.value(forKey:"characters")!)
+                        print(jsonObj!.value(forKey:"games")!)
                         
-                        if let veggieArray = jsonObj!.value(forKey: "characters")as? Array<String>
+                        if let veggieArray = jsonObj!.value(forKey: "games")as? Array<String>
                         {
                             self.dataArray = veggieArray
                             
-                            print(jsonObj!.value (forKey: "characters")!)
+                            print(jsonObj!.value (forKey: "games")!)
                         }
                     }
                 } else {
