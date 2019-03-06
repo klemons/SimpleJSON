@@ -2,8 +2,8 @@
 //  DataManager.swift
 //  SimpleJSON_JDL
 //
-//  Created by Jessica Lowry on 3/4/19.
-//  Copyright © 2019 Jessica Lowry. All rights reserved.
+//  Created by Kyle Lemons on 3/4/19.
+//  Copyright © 2019 Kyle Lemons. All rights reserved.
 //
 
 import UIKit
