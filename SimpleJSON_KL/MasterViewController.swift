@@ -1,6 +1,6 @@
 //
 //  MasterViewController.swift
-//  SimpleJSON_JDL
+//  SimpleJSON_KL
 //
 //  Created by Kyle Lemons on 3/4/19.
 //  Copyright © 2019 Kyle Lemons. All rights reserved.

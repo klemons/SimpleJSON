@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29EE9B23222D6AF900398558 /* SimpleJSON_JDL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleJSON_JDL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EE9B23222D6AF900398558 /* SimpleJSON_KL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleJSON_KL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EE9B26222D6AF900398558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29EE9B28222D6AF900398558 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		29EE9B2A222D6AF900398558 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		29EE9B1A222D6AF900398558 = {
 			isa = PBXGroup;
 			children = (
-				29EE9B25222D6AF900398558 /* SimpleJSON_JDL */,
+				29EE9B25222D6AF900398558 /* SimpleJSON_KL */,
 				29EE9B24222D6AF900398558 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		29EE9B24222D6AF900398558 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29EE9B23222D6AF900398558 /* SimpleJSON_JDL.app */,
+				29EE9B23222D6AF900398558 /* SimpleJSON_KL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29EE9B25222D6AF900398558 /* SimpleJSON_JDL */ = {
+		29EE9B25222D6AF900398558 /* SimpleJSON_KL */ = {
 			isa = PBXGroup;
 			children = (
 				29EE9B26222D6AF900398558 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				29EE9B34222D6AFA00398558 /* Info.plist */,
 				29EE9B3A222D6C7600398558 /* DataManager.swift */,
 			);
-			path = SimpleJSON_JDL;
+			path = SimpleJSON_KL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29EE9B22222D6AF900398558 /* SimpleJSON_JDL */ = {
+		29EE9B22222D6AF900398558 /* SimpleJSON_KL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29EE9B37222D6AFA00398558 /* Build configuration list for PBXNativeTarget "SimpleJSON_JDL" */;
+			buildConfigurationList = 29EE9B37222D6AFA00398558 /* Build configuration list for PBXNativeTarget "SimpleJSON_KL" */;
 			buildPhases = (
 				29EE9B1F222D6AF900398558 /* Sources */,
 				29EE9B20222D6AF900398558 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = SimpleJSON_JDL;
+			name = SimpleJSON_KL;
 			productName = SimpleJSON_JDL;
-			productReference = 29EE9B23222D6AF900398558 /* SimpleJSON_JDL.app */;
+			productReference = 29EE9B23222D6AF900398558 /* SimpleJSON_KL.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29EE9B1E222D6AF900398558 /* Build configuration list for PBXProject "SimpleJSON_JDL" */;
+			buildConfigurationList = 29EE9B1E222D6AF900398558 /* Build configuration list for PBXProject "SimpleJSON_KL" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29EE9B22222D6AF900398558 /* SimpleJSON_JDL */,
+				29EE9B22222D6AF900398558 /* SimpleJSON_KL */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29EE9B1E222D6AF900398558 /* Build configuration list for PBXProject "SimpleJSON_JDL" */ = {
+		29EE9B1E222D6AF900398558 /* Build configuration list for PBXProject "SimpleJSON_KL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29EE9B35222D6AFA00398558 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29EE9B37222D6AFA00398558 /* Build configuration list for PBXNativeTarget "SimpleJSON_JDL" */ = {
+		29EE9B37222D6AFA00398558 /* Build configuration list for PBXNativeTarget "SimpleJSON_KL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29EE9B38222D6AFA00398558 /* Debug */,

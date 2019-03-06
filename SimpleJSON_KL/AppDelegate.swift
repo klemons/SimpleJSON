@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SimpleJSON_JDL
+//  SimpleJSON_KL
 //changed a thing
 //
 //  Created by Kyle Lemons on 3/4/19.
